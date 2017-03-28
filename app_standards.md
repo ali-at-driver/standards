@@ -9,9 +9,9 @@
     * a more complex example: https://github.com/drivergroup/pipeline-bridge-service/blob/master/Makefile
     * another complex example: https://github.com/drivergroup/compbio-pipeline/blob/master/Makefile
     * the very near term plan is to move completely to using conda for python package dependencies, and . Here's a description in case your curious, https://conda.io/docs/building/build.html, but let's work on this together when you're in SF.
-###3. Testing###
+### 3. Testing ###
    * we're trying to move to solely using pytest
-###4. Logging###
+### 4. Logging ###
    `https://github.com/drivergroup/pydriverutils/blob/master/pydriverutils/driver_logging.py` -- has logging functions. You can import the relevant methods with (for example):
 ```python
 from pydriverutils.logging import configure_root_logger_from_args, build_log_parser
